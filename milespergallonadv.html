@@ -23,7 +23,9 @@
                 }
             };
             function clear() {
-                document.getElementById("clear").reset();
+                document.getElementById("miles").value ="";
+                document.getElementById("gallons").value ="";
+                document.getElementById("mpg").value ="";
             };
             window.onload = function() {
                 $("calculate").onclick = processEntries;
@@ -33,7 +35,6 @@
     </head>
     <body>
         <main>
-            <form name="clear" id="clear">
             <h1>Calulate Miles Per Gallon</h1>
             <label for="miles">Miles Driven:</label>
             <input type="text" id="miles" ondoublefocus="this.value=' '"><br>
@@ -42,7 +43,7 @@
             <label for="mpg">Miles Per Galon</label>
             <input type="text" id="mpg" disabled><br>
             <input type="button" id="calculate" value="Calculate MPG"><br>
-            <input type="button" onclick="clear" value="clear">
+            <input type="button" value="Clear" onclick="clear()">
         </form>
         </main>
     </body>
