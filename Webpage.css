@@ -1,11 +1,30 @@
 body {
-    background-color: lightblue
+    background-color: white
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
 }
