@@ -26,9 +26,6 @@
                 $("calculate").onclick = processEntries;
                 $("miles").focus();
             };
-            var clear = function(clear) {
-                document.getElementById("clear").reset();
-            };
         </script>
     </head>
     <body>
@@ -41,7 +38,7 @@
             <label for="mpg">Miles Per Galon</label>
             <input type="text" id="mpg" disabled><br>
             <input type="button" id="calculate" value="Calculate MPG"><br>
-            <input type="button" type="reset" id="clear" value=" Clear"><br>
+            <button type="reset" value="Reset">Clear</button>
         </main>
     </body>
 </html>
