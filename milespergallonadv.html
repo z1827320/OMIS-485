@@ -22,10 +22,13 @@
                     $("mpg").value = calculateMpg(miles, gallons);
                 }
             };
+            var clear = function() {
+                return document.clear();
+            }
             window.onload = function() {
                 $("calculate").onclick = processEntries;
                 $("miles").focus();
-                $("clear").onclick = " "
+                $("clear").onclick = "0"
             };
         </script>
     </head>
