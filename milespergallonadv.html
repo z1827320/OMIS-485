@@ -22,7 +22,8 @@
                     $("mpg").value = calculateMpg(miles, gallons);
                 }
             };
-            function clear() {
+            function clear("dick") {
+                alert("clear");
                 document.getElementById("miles").value ="";
                 document.getElementById("gallons").value ="";
                 document.getElementById("mpg").value ="";
@@ -43,7 +44,7 @@
             <label for="mpg">Miles Per Galon</label>
             <input type="text" id="mpg" disabled><br>
             <input type="button" id="calculate" value="Calculate MPG"><br>
-            <input type="button" value="Clear" onclick="clear()">
+            <input type="button" value="Clear" onclick="clear(dick)">
         </form>
         </main>
     </body>
