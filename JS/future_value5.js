@@ -19,11 +19,11 @@ var processEntries = function() {
     }
 
     else if (rate <= 0 || rate > 15) {
-        alert("Rate should be greater than 0 or less than 15);
+        alert("Rate should be greater than 0 or less than 15")
     }
 
     else if (years <= 0 || years > 50) {
-        alert("Years should be greater than 0 or less than 50):
+        alert("Years should be greater than 0 or less than 50")
     }
 
     else {
