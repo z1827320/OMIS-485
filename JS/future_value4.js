@@ -36,7 +36,7 @@ var calculateFV = function(investment, rate, years) {
     for (var i = 1; i <= years; i++ ) {
         futureValue = futureValue + (futureValue * rate / 100);
     }
-    futureValue= parseInt(futureValue).toFixed(2);
+    futureValue= parseInt(futureValue).toExponential(2);
     return futureValue;
 };
 
